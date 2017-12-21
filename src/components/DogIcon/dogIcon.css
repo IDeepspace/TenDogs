@@ -1,0 +1,23 @@
+.dog-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 120%;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 40px 20px 0;
+  border: 1px solid #000;
+  flex-grow: 1;
+}
+
+.delete-icon {
+  display: none;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.dog-icon:hover .delete-icon {
+  display: block;
+}

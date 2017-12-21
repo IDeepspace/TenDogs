@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: rgb(51, 61, 70);
+  padding: 20px;
+}
+.header a{
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+}
+.main {
+  flex-grow: 1;
+  padding: 30px;
+}
+.footer {
+  background-color: rgb(51, 61, 70);
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
